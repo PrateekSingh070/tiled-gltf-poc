@@ -1,0 +1,5 @@
+*.exe
+*.o
+*.obj
+output.gltf
+output.bin
