@@ -29,11 +29,11 @@ cl gltf_quad_poc.c
 ./gltf_quad_poc
 ```
 
-Produces `quad.gltf` and `quad.bin`.
+Produces `quad.gltf`, `quad.bin`, and `quad.png` (embedded checkerboard texture referenced by the glTF).
 
 ## Validate
 
-Open `quad.gltf` in https://gltf-viewer.donmccurdy.com/ or run:
+Drag the **folder** (or `quad.gltf` with `quad.png` and `quad.bin` beside it) into https://gltf-viewer.donmccurdy.com/ or run:
 
 ```bash
 npx gltf-validator quad.gltf

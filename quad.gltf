@@ -49,6 +49,11 @@
       "byteLength": 92
     }
   ],
+  "images": [
+    {
+      "uri": "quad.png"
+    }
+  ],
   "meshes": [
     {
       "name": "TileQuad",
@@ -67,6 +72,9 @@
   "materials": [
     {
       "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
         "metallicFactor": 0
       }
     }
@@ -77,11 +85,23 @@
       "name": "Tile_0_0"
     }
   ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729
+    }
+  ],
   "scene": 0,
   "scenes": [
     {
       "name": "TileMap",
       "nodes": [ 0 ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
     }
   ]
 }
