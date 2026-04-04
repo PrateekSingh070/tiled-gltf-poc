@@ -1,6 +1,11 @@
 # glTF Export Proof-of-Concept
 
-A standalone C++ program that generates a valid glTF 2.0 file from a simulated 2x2 tile map, demonstrating the core building block for the Tiled glTF export plugin.
+![C++17](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=c%2B%2B&logoColor=white)
+![glTF 2.0](https://img.shields.io/badge/glTF-2.0-86CEF9)
+
+Standalone C++ program that writes a **valid** glTF 2.0 (`.gltf` + `.bin`) from a small orthogonal tile grid, using the same tile-to-screen and atlas UV ideas as [Tiled](https://www.mapeditor.org/). This is the technical foundation for a Tiled **glTF export** plugin; see [issue #2741](https://github.com/mapeditor/tiled/issues/2741) for upstream context.
+
+**Author:** [PrateekSingh070](https://github.com/PrateekSingh070) · **Related upstream work:** [Tiled PR #4419](https://github.com/mapeditor/tiled/pull/4419), [PR #4465](https://github.com/mapeditor/tiled/pull/4465)
 
 ## What it does
 
@@ -37,3 +42,7 @@ This program demonstrates:
 - The **UV computation** from tileset atlas parameters (`margin`, `spacing`, `columnCount`, `imageWidth`)
 - The **cgltf write API** workflow: build data structure in memory, write binary buffer, write .gltf JSON
 - The **glTF buffer/bufferView/accessor** hierarchy for packing geometry data
+
+## Repository topics (for GitHub)
+
+Suggested tags: `gltf` · `gltf2` · `tiled` · `map-editor` · `cgltf` · `c++` · `game-tools` · `proof-of-concept`
