@@ -1,0 +1,107 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 4,
+      "min": [0, 0, 0],
+      "max": [1, 1, 0]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 4
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "type": "SCALAR",
+      "count": 6
+    }
+  ],
+  "asset": {
+    "generator": "tiled-gltf-poc",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 48,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 80
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "quad.bin",
+      "byteLength": 92
+    }
+  ],
+  "images": [
+    {
+      "uri": "quad.png"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "TileQuad",
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "attributes": {
+            "POSITION": 0,
+            "TEXCOORD_0": 1
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Tile_0_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "TileMap",
+      "nodes": [ 0 ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    }
+  ]
+}
